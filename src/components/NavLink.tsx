@@ -19,10 +19,10 @@ export const NavLink: React.FC<Props> = ({ children, to }) => {
 	return (
 		<Link
 			href={to}
-			className={`font-heading text-sm transform origin-left transition ${
+			className={`font-heading text-sm transform origin-left transition uppercase tracking-wide ${
 				active
-					? 'scale-125 text-black'
-					: 'text-neutral-500 hover:scale-125 hover:text-black'
+					? 'scale-110 text-black'
+					: 'text-neutral-500 hover:scale-110 hover:text-black'
 			}`}
 		>
 			{children}

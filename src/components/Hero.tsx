@@ -13,7 +13,7 @@ export const Hero: React.FC = () => {
 			<div className="z-40 absolute inset-0 bg-white bg-opacity-75"></div>
 			<div className="ml-64 h-full flex flex-col gap-4 items-center justify-center absolute z-40 inset-0">
 				<Image src="/img/logo.svg" width="500" height="50" alt="Perry Jurick" />
-				<span className="font-heading text-sm text-neutral-500">
+				<span className="font-heading text-sm text-neutral-500 uppercase tracking-widest">
 					Pure, Emotive Artistry
 				</span>
 			</div>
