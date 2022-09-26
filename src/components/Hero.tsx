@@ -4,7 +4,7 @@ export const Hero: React.FC = () => {
 	return (
 		<section className="bg-purple-200 absolute z-30 inset-0">
 			<Image
-				src="/img/hero/2.jpg"
+				src="/img/hero/3.jpg"
 				sizes="100vw"
 				alt="image"
 				fill

@@ -1,4 +1,4 @@
-import { Button, Hero, Quote, SideNav } from 'components';
+import { Button, Hero, Meet, Quote, SideNav } from 'components';
 
 import type { NextPage } from 'next';
 
@@ -7,10 +7,11 @@ const Home: NextPage = () => {
 		<div>
 			<SideNav />
 			<Hero />
-			<div className="ml-64 p-8 absolute top-full">
+			<div className="ml-64 p-16 absolute top-full">
 				<Quote>
 					There is nothing better than loving and being loved in return.
 				</Quote>
+				<Meet />
 				{[1, 2, 3, 4, 5, 6, 7, 8].map((item) => (
 					<div className="flex flex-col gap-4 items-start pb-4">
 						<h1 className="font-heading text-3xl">hello world</h1>
