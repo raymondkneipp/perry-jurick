@@ -5,7 +5,9 @@ type Props = {
 export const Quote: React.FC<Props> = ({ children }) => {
 	return (
 		<section className="p-8 flex items-center justify-center">
-			<q className="font-heading text-xl text-center">{children}</q>
+			<q className="font-heading text-xl text-center text-neutral-500">
+				{children}
+			</q>
 		</section>
 	);
 };

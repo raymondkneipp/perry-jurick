@@ -1,4 +1,4 @@
-import { Hero, Quote, SideNav } from 'components';
+import { Button, Hero, Quote, SideNav } from 'components';
 
 import type { NextPage } from 'next';
 
@@ -12,7 +12,7 @@ const Home: NextPage = () => {
 					There is nothing better than loving and being loved in return.
 				</Quote>
 				<h1 className="font-heading text-3xl">hello world</h1>
-				<p className="font-body">
+				<p className="font-body text-neutral-500">
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius unde eum
 					atque odit maiores cum perspiciatis, odio aut fugiat? Maiores, labore
 					aliquam? Nihil deleniti officiis voluptate, magnam tempora odit
@@ -21,6 +21,7 @@ const Home: NextPage = () => {
 					tempore eligendi consequatur, corporis excepturi exercitationem vero
 					ea, esse necessitatibus quibusdam magni?
 				</p>
+				<Button to="/about">Read More</Button>
 			</div>
 		</div>
 	);
