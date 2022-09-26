@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import cn from 'variant-classnames';
 import { useRouter } from 'next/router';
 
 type Props = {
@@ -9,18 +10,21 @@ type Props = {
 export const NavLink: React.FC<Props> = ({ children, to }) => {
 	const router = useRouter();
 
-	let path = router.pathname;
+	const active = router.pathname === to;
 
-	const activeStyles =
-		path === to
-			? 'scale-110 text-neutral-700'
-			: 'text-neutral-500 hover:scale-110 hover:text-neutral-700';
+	const classes = cn(
+		{
+			$all: 'font-heading text-sm transform origin-left transition uppercase tracking-wide',
+			active: {
+				true: 'scale-110 text-neutral-700',
+				false: 'text-neutral-500 hover:scale-110 hover:text-neutral-700',
+			},
+		},
+		{ active }
+	);
 
 	return (
-		<Link
-			href={to}
-			className={`font-heading text-sm transform origin-left transition uppercase tracking-wide ${activeStyles}`}
-		>
+		<Link href={to} className={classes}>
 			{children}
 		</Link>
 	);
