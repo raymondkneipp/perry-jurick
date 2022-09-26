@@ -6,7 +6,7 @@ export const Hero: React.FC = () => {
 	return (
 		<section className="relative min-h-screen z-30 inset-0 flex items-center justify-center">
 			<Image
-				src="/img/hero/3.jpg"
+				src="/img/hero/1.jpg"
 				sizes="100vw"
 				alt="image"
 				fill
@@ -18,7 +18,7 @@ export const Hero: React.FC = () => {
 
 			<SideNav />
 
-			<div className="z-40 ml-64">
+			<div className="z-40 md:ml-64 p-8 sm:p-16">
 				<Centered>
 					<Image
 						src="/img/logo.svg"

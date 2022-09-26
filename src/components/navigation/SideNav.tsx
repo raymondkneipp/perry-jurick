@@ -14,7 +14,7 @@ export const SideNav: React.FC = () => {
 				backgroundSize: '200% 200%',
 				backgroundPosition: isHover ? '0% 0%' : '50% 50%',
 			}}
-			className="absolute z-40 top-0 left-0 bottom-0 w-64 p-8 flex flex-col justify-between gap-4 transition-all duration-500 bg-gradient-to-r from-white via-transparent to-transparent"
+			className="hidden md:flex absolute z-40 top-0 left-0 bottom-0 w-64 p-8 flex-col justify-between gap-4 transition-all duration-500 bg-gradient-to-r from-white via-transparent to-transparent"
 		>
 			<Image src="/img/initials.svg" alt="pj" width="102" height="38" />
 
