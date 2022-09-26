@@ -1,4 +1,4 @@
-import { Centered, Container, Socials } from 'components';
+import { Centered, Container, Initials, Socials } from 'components';
 
 export const Footer: React.FC = () => {
 	return (
@@ -14,6 +14,7 @@ export const Footer: React.FC = () => {
 					</a>
 
 					<Socials />
+					<Initials />
 				</Centered>
 			</footer>
 		</Container>

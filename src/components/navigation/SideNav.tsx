@@ -1,6 +1,5 @@
-import { NavLink, Socials } from 'components';
+import { Initials, NavLink, Socials } from 'components';
 
-import Image from 'next/future/image';
 import { useState } from 'react';
 
 export const SideNav: React.FC = () => {
@@ -16,7 +15,7 @@ export const SideNav: React.FC = () => {
 			}}
 			className="hidden md:flex absolute z-40 top-0 left-0 bottom-0 w-64 p-8 flex-col justify-between gap-4 transition-all duration-500 bg-gradient-to-r from-white via-transparent to-transparent"
 		>
-			<Image src="/img/initials.svg" alt="pj" width="102" height="38" />
+			<Initials />
 
 			<div className="flex flex-col gap-4">
 				<NavLink to="/">Home</NavLink>
