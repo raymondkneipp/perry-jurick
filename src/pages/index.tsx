@@ -4,7 +4,7 @@ import type { NextPage } from 'next';
 
 const Home: NextPage = () => {
 	return (
-		<div>
+		<>
 			<SideNav />
 			<Hero />
 			<div className="ml-64 absolute top-full">
@@ -34,7 +34,7 @@ const Home: NextPage = () => {
 				<CTA />
 				<Footer />
 			</div>
-		</div>
+		</>
 	);
 };
 

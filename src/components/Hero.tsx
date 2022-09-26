@@ -2,7 +2,7 @@ import Image from 'next/future/image';
 
 export const Hero: React.FC = () => {
 	return (
-		<section className="bg-purple-200 absolute z-30 inset-0">
+		<section className="absolute z-30 inset-0">
 			<Image
 				src="/img/hero/3.jpg"
 				sizes="100vw"
