@@ -5,6 +5,7 @@ import {
 	Footer,
 	Hero,
 	Meet,
+	PopoverNav,
 	Quote,
 	Showcase,
 	Testimonials,
@@ -16,6 +17,7 @@ const Home: NextPage = () => {
 	return (
 		<main>
 			<Hero />
+			<PopoverNav />
 			<div className="flex flex-col gap-16 py-16">
 				<Quote>
 					There is nothing better than loving and being loved in return.

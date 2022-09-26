@@ -7,6 +7,7 @@ export { Container } from './layout/Container';
 export { Meet } from './Meet';
 export { Button } from './navigation/Button';
 export { NavLink } from './navigation/NavLink';
+export { PopoverNav } from './navigation/PopoverNav';
 export { SideNav } from './navigation/SideNav';
 export { Quote } from './Quote';
 export { Showcase } from './Showcase';

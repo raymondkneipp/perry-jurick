@@ -8,7 +8,7 @@ type Props = {
 export const Container: React.FC<Props> = ({ children, bordered }) => {
 	const classes = cn(
 		{
-			$all: 'px-16',
+			$all: 'px-36',
 			bordered: {
 				true: 'border-y-8 border-double border-neutral-100 py-16',
 			},
