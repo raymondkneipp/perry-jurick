@@ -3,17 +3,17 @@ import Image from 'next/future/image';
 
 export const Meet: React.FC = () => {
 	return (
-		<section className="py-16">
-			<div className="grid grid-cols-2 gap-8 items-center justify-center">
+		<section>
+			<div className="grid grid-cols-2 gap-16 items-center justify-center">
 				<Image
 					src="/img/perry/1.jpg"
-					width="250"
-					height="250"
+					width="275"
+					height="275"
 					alt="Perry Jurick"
 					className="mx-auto"
 				/>
 
-				<div className="flex flex-col items-center gap-4">
+				<div className="flex flex-col items-center gap-8">
 					<span className="text-neutral-500 font-body">about the atist</span>
 					<h2 className="font-heading text-black uppercase text-2xl">
 						Meet Perry
