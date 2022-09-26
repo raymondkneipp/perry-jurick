@@ -1,36 +1,21 @@
 import { FaFacebookF, FaInstagram, FaPinterestP } from 'react-icons/fa';
 import { NavLink, SocialIcon } from 'components';
-import { useEffect, useState } from 'react';
 
 import Image from 'next/future/image';
+import { useState } from 'react';
 
 export const SideNav: React.FC = () => {
-	const [bgPos, setBgPos] = useState(100);
-
-	const listenScrollEvent = (event: Event) => {
-		let height = screen.height;
-		let scroll = window.scrollY;
-
-		if (scroll < height) {
-			return setBgPos((100 * (-scroll + height)) / height);
-		} else {
-			setBgPos(0);
-		}
-	};
-
-	useEffect(() => {
-		window.addEventListener('scroll', listenScrollEvent);
-
-		return () => window.removeEventListener('scroll', listenScrollEvent);
-	}, []);
+	const [isHover, setIsHover] = useState(false);
 
 	return (
 		<nav
+			onMouseEnter={() => setIsHover(true)}
+			onMouseLeave={() => setIsHover(false)}
 			style={{
 				backgroundSize: '200% 200%',
-				backgroundPosition: `${bgPos}% ${bgPos}%`,
+				backgroundPosition: isHover ? '0% 0%' : '50% 50%',
 			}}
-			className="fixed z-40 top-0 left-0 bottom-0 w-64 p-8 flex flex-col justify-between gap-4 bg-gradient-to-r from-neutral-50 via-neutral-50 to-transparent"
+			className="absolute z-40 top-0 left-0 bottom-0 w-64 p-8 flex flex-col justify-between gap-4 transition-all duration-500 bg-gradient-to-r from-white via-transparent to-transparent"
 		>
 			<Image src="/img/initials.svg" alt="pj" width="102" height="38" />
 

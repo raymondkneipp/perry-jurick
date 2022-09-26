@@ -6,7 +6,6 @@ import {
 	Meet,
 	Quote,
 	Showcase,
-	SideNav,
 	Testimonials,
 } from 'components';
 
@@ -15,9 +14,8 @@ import type { NextPage } from 'next';
 const Home: NextPage = () => {
 	return (
 		<>
-			<SideNav />
 			<Hero />
-			<div className="ml-64 absolute top-full flex flex-col gap-16 py-16">
+			<div className="flex flex-col gap-16 py-16">
 				<Quote>
 					There is nothing better than loving and being loved in return.
 				</Quote>
