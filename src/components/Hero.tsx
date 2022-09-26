@@ -1,9 +1,10 @@
+import { Centered, SideNav } from 'components';
+
 import Image from 'next/future/image';
-import { SideNav } from 'components';
 
 export const Hero: React.FC = () => {
 	return (
-		<section className="relative min-h-screen z-30 inset-0">
+		<section className="relative min-h-screen z-30 inset-0 flex items-center justify-center">
 			<Image
 				src="/img/hero/3.jpg"
 				sizes="100vw"
@@ -17,11 +18,18 @@ export const Hero: React.FC = () => {
 
 			<SideNav />
 
-			<div className="ml-64 h-full flex flex-col gap-4 items-center justify-center absolute z-40 inset-0">
-				<Image src="/img/logo.svg" width="500" height="50" alt="Perry Jurick" />
-				<span className="font-heading text-sm text-neutral-500 uppercase tracking-widest">
-					Pure, Emotive Artistry
-				</span>
+			<div className="z-40 ml-64">
+				<Centered>
+					<Image
+						src="/img/logo.svg"
+						width="500"
+						height="50"
+						alt="Perry Jurick"
+					/>
+					<span className="font-heading text-sm text-neutral-500 uppercase tracking-widest">
+						Pure, Emotive Artistry
+					</span>
+				</Centered>
 			</div>
 		</section>
 	);

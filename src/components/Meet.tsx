@@ -1,4 +1,4 @@
-import { Button, Container } from 'components';
+import { Button, Centered, Container } from 'components';
 
 import Image from 'next/future/image';
 
@@ -14,7 +14,7 @@ export const Meet: React.FC = () => {
 					className="mx-auto"
 				/>
 
-				<div className="flex flex-col items-center gap-8">
+				<Centered>
 					<span className="text-neutral-500 font-body italic">
 						about the atist
 					</span>
@@ -38,7 +38,7 @@ export const Meet: React.FC = () => {
 					</p>
 
 					<Button to="/about">Read More</Button>
-				</div>
+				</Centered>
 			</div>
 		</Container>
 	);

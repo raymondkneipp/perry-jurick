@@ -1,9 +1,9 @@
-import { Container } from 'components';
+import { Centered, Container } from 'components';
 
 export const Testimonials: React.FC = () => {
 	return (
 		<Container bordered>
-			<div className="flex flex-col gap-8 items-center">
+			<Centered>
 				<h2 className="font-heading text-neutral-700 uppercase text-2xl tracking-widest">
 					Testimonials
 				</h2>
@@ -22,7 +22,7 @@ export const Testimonials: React.FC = () => {
 						cupiditate error eum amet?
 					</p>
 				</div>
-			</div>
+			</Centered>
 		</Container>
 	);
 };

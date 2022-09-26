@@ -1,10 +1,11 @@
+import { Centered, Container } from 'components';
+
 import { Button } from './Button';
-import { Container } from 'components';
 
 export const CTA: React.FC = () => {
 	return (
 		<Container bordered>
-			<div className="flex flex-col items-center gap-4">
+			<Centered>
 				<h2 className="text-center font-heading text-neutral-700 text-2xl uppercase tracking-widest">
 					Inquire Today
 				</h2>
@@ -14,7 +15,7 @@ export const CTA: React.FC = () => {
 					eiusmod tempor incididunt ut labore et dolore magna aliqua.
 				</p>
 				<Button to="inquire">Inquire Now</Button>
-			</div>
+			</Centered>
 		</Container>
 	);
 };
