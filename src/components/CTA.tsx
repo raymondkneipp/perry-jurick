@@ -1,6 +1,4 @@
-import { Centered, Container } from 'components';
-
-import { Button } from './Button';
+import { Button, Centered, Container } from 'components';
 
 export const CTA: React.FC = () => {
 	return (
