@@ -18,7 +18,7 @@ export const Container: React.FC<Props> = ({ children, bordered }) => {
 
 	return (
 		<div className={classes}>
-			<div className="container mx-auto">{children}</div>
+			<div className="container mx-auto max-w-screen-lg">{children}</div>
 		</div>
 	);
 };
