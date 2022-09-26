@@ -30,8 +30,7 @@ export const SideNav: React.FC = () => {
 				backgroundSize: '200% 200%',
 				backgroundPosition: `${bgPos}% ${bgPos}%`,
 			}}
-			className={`fixed z-40 top-0 left-0 bottom-0 w-64 p-8 flex flex-col justify-between gap-4 bg-gradient-to-r from-neutral-50 via-neutral-50 to-transparent 
-			`}
+			className="fixed z-40 top-0 left-0 bottom-0 w-64 p-8 flex flex-col justify-between gap-4 bg-gradient-to-r from-neutral-50 via-neutral-50 to-transparent"
 		>
 			<Image src="/img/initials.svg" alt="pj" width="102" height="38" />
 
