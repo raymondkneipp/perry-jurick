@@ -2,7 +2,7 @@ import { Button } from './Button';
 
 export const CTA: React.FC = () => {
 	return (
-		<section className="border-y border-neutral-200 py-8 flex flex-col items-center gap-4 my-8">
+		<section className="border-y-8 border-double border-neutral-100 py-8 flex flex-col items-center gap-4 my-8">
 			<h2 className="text-center font-heading text-black text-2xl">
 				Inquire Today
 			</h2>
