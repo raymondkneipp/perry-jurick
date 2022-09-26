@@ -1,4 +1,4 @@
-import { Button, CTA, Hero, Meet, Quote, SideNav } from 'components';
+import { Button, CTA, Footer, Hero, Meet, Quote, SideNav } from 'components';
 
 import type { NextPage } from 'next';
 
@@ -32,6 +32,7 @@ const Home: NextPage = () => {
 				</div>
 
 				<CTA />
+				<Footer />
 			</div>
 		</div>
 	);
