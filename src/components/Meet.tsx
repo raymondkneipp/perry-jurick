@@ -17,7 +17,7 @@ export const Meet: React.FC = () => {
 					<span className="text-neutral-500 font-body italic">
 						about the atist
 					</span>
-					<h2 className="font-heading text-black uppercase text-2xl tracking-widest">
+					<h2 className="font-heading text-neutral-700 uppercase text-2xl tracking-widest">
 						Meet Perry
 					</h2>
 

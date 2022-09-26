@@ -3,7 +3,7 @@ import { Button } from './Button';
 export const CTA: React.FC = () => {
 	return (
 		<section className="border-y-8 border-double border-neutral-100 p-8 flex flex-col items-center gap-4 my-8">
-			<h2 className="text-center font-heading text-black text-2xl uppercase tracking-widest">
+			<h2 className="text-center font-heading text-neutral-700 text-2xl uppercase tracking-widest">
 				Inquire Today
 			</h2>
 			<p className="text-center font-body text-neutral-500 max-w-lg">

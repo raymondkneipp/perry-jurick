@@ -5,4 +5,5 @@ export { Hero } from './Hero';
 export { Meet } from './Meet';
 export { NavLink } from './NavLink';
 export { Quote } from './Quote';
+export { Showcase } from './Showcase';
 export { SideNav } from './SideNav';
