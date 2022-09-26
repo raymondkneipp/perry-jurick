@@ -7,6 +7,7 @@ import {
 	Quote,
 	Showcase,
 	SideNav,
+	Testimonials,
 } from 'components';
 
 import type { NextPage } from 'next';
@@ -22,6 +23,7 @@ const Home: NextPage = () => {
 				</Quote>
 				<Showcase />
 				<Meet />
+				<Testimonials />
 				{[1, 2, 3].map((item) => (
 					<div className="flex flex-col gap-4 items-start pb-4 px-16">
 						<h1 className="font-heading text-2xl uppercase tracking-widest">
