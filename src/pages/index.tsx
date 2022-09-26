@@ -25,7 +25,7 @@ const Home: NextPage = () => {
 				<Testimonials />
 
 				{[1, 2, 3].map((item) => (
-					<Container>
+					<Container key={item}>
 						<div className="flex flex-col gap-4 items-start">
 							<h1 className="font-heading text-2xl uppercase tracking-widest">
 								Hello World
