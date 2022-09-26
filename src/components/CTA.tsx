@@ -3,8 +3,8 @@ import { Container } from 'components';
 
 export const CTA: React.FC = () => {
 	return (
-		<Container>
-			<div className="border-y-8 border-double border-neutral-100 py-16 flex flex-col items-center gap-4 my-8">
+		<Container bordered>
+			<div className="flex flex-col items-center gap-4">
 				<h2 className="text-center font-heading text-neutral-700 text-2xl uppercase tracking-widest">
 					Inquire Today
 				</h2>

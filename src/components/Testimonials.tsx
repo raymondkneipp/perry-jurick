@@ -2,8 +2,8 @@ import { Container } from 'components';
 
 export const Testimonials: React.FC = () => {
 	return (
-		<Container>
-			<div className="border-y-8 border-double border-neutral-100 py-16 flex flex-col gap-8 items-center">
+		<Container bordered>
+			<div className="flex flex-col gap-8 items-center">
 				<h2 className="font-heading text-neutral-700 uppercase text-2xl tracking-widest">
 					Testimonials
 				</h2>
