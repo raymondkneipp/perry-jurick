@@ -1,8 +1,8 @@
 import { FaFacebookF, FaInstagram, FaPinterestP } from 'react-icons/fa';
+import { NavLink, SocialIcon } from 'components';
 import { useEffect, useState } from 'react';
 
 import Image from 'next/future/image';
-import { NavLink } from 'components';
 
 export const SideNav: React.FC = () => {
 	const [bgPos, setBgPos] = useState(100);
@@ -44,24 +44,9 @@ export const SideNav: React.FC = () => {
 			</div>
 
 			<div className="flex gap-4 items-center">
-				<a
-					href="https://www.google.com"
-					className="text-neutral-500 hover:text-neutral-700 transition"
-				>
-					<FaFacebookF size={20} />
-				</a>
-				<a
-					href="https://www.google.com"
-					className="text-neutral-500 hover:text-neutral-700 transition"
-				>
-					<FaInstagram size={25} />
-				</a>
-				<a
-					href="https://www.google.com"
-					className="text-neutral-500 hover:text-neutral-700 transition"
-				>
-					<FaPinterestP size={20} />
-				</a>
+				<SocialIcon icon={FaFacebookF} size={20} to="https://facebook.com" />
+				<SocialIcon icon={FaInstagram} size={25} to="https://instagram.com" />
+				<SocialIcon icon={FaPinterestP} size={20} to="https://pinterest.com" />
 			</div>
 		</nav>
 	);
