@@ -14,7 +14,7 @@ class Document extends NextDocument<Props> {
 						crossOrigin="true"
 					/>
 					<link
-						href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Source+Sans+Pro&display=swap"
+						href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Source+Sans+Pro&family=WindSong&display=swap"
 						rel="stylesheet"
 					/>
 				</Head>

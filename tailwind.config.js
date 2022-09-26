@@ -8,6 +8,7 @@ module.exports = {
 		fontFamily: {
 			heading: ['Libre Baskerville', 'serif'],
 			body: ['Source Sans Pro', 'sans-serif'],
+			script: ['WindSong', 'sans-serif'],
 		},
 		extend: {},
 	},
