@@ -1,4 +1,5 @@
 export { Button } from './Button';
+export { Container } from './Container';
 export { CTA } from './CTA';
 export { Footer } from './Footer';
 export { Hero } from './Hero';

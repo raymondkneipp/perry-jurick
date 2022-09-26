@@ -1,10 +1,11 @@
-import { Button } from 'components';
+import { Button, Container } from 'components';
+
 import Image from 'next/future/image';
 
 export const Meet: React.FC = () => {
 	return (
-		<section>
-			<div className="grid grid-cols-2 gap-16 items-center justify-center px-16">
+		<Container>
+			<div className="grid grid-cols-2 gap-16 items-center justify-center">
 				<Image
 					src="/img/perry/1.jpg"
 					width="275"
@@ -39,6 +40,6 @@ export const Meet: React.FC = () => {
 					<Button to="/about">Read More</Button>
 				</div>
 			</div>
-		</section>
+		</Container>
 	);
 };
