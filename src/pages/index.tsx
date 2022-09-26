@@ -14,7 +14,7 @@ import type { NextPage } from 'next';
 
 const Home: NextPage = () => {
 	return (
-		<>
+		<main>
 			<Hero />
 			<div className="flex flex-col gap-16 py-16">
 				<Quote>
@@ -48,7 +48,7 @@ const Home: NextPage = () => {
 				<CTA />
 				<Footer />
 			</div>
-		</>
+		</main>
 	);
 };
 
