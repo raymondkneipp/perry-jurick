@@ -1,12 +1,8 @@
-import {
-	FaFacebookSquare,
-	FaInstagramSquare,
-	FaPinterestSquare,
-} from 'react-icons/fa';
+import { FaFacebookF, FaInstagram, FaPinterestP } from 'react-icons/fa';
 import { useEffect, useState } from 'react';
 
 import Image from 'next/future/image';
-import Link from 'next/link';
+import { NavLink } from 'components';
 
 export const SideNav: React.FC = () => {
 	const [isTransparent, setIsTransparent] = useState(true);
@@ -32,19 +28,19 @@ export const SideNav: React.FC = () => {
 		>
 			<Image src="/img/initials.svg" alt="pj" width="102" height="38" />
 
-			<div className="flex flex-col font-body gap-2">
-				<Link href="/">Home</Link>
-				<Link href="/portfolio">Portfolio</Link>
-				<Link href="/about">About</Link>
-				<Link href="/testimonials">Testimonials</Link>
-				<Link href="/inquire">Inquire</Link>
-				<Link href="/dianne-boudoir">Dianne Boudoir</Link>
+			<div className="flex flex-col gap-4">
+				<NavLink to="/">Home</NavLink>
+				<NavLink to="/portfolio">Portfolio</NavLink>
+				<NavLink to="/about">About</NavLink>
+				<NavLink to="/testimonials">Testimonials</NavLink>
+				<NavLink to="/inquire">Inquire</NavLink>
+				<NavLink to="/dianne-boudoir">Dianne Boudoir</NavLink>
 			</div>
 
-			<div className="flex gap-2">
-				<FaFacebookSquare size={25} />
-				<FaInstagramSquare size={25} />
-				<FaPinterestSquare size={25} />
+			<div className="flex gap-4 items-center">
+				<FaFacebookF size={20} />
+				<FaInstagram size={25} />
+				<FaPinterestP size={20} />
 			</div>
 		</nav>
 	);
