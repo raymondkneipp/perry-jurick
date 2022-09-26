@@ -38,9 +38,24 @@ export const SideNav: React.FC = () => {
 			</div>
 
 			<div className="flex gap-4 items-center">
-				<FaFacebookF size={20} />
-				<FaInstagram size={25} />
-				<FaPinterestP size={20} />
+				<a
+					href="https://www.google.com"
+					className="text-neutral-500 hover:text-black transition"
+				>
+					<FaFacebookF size={20} />
+				</a>
+				<a
+					href="https://www.google.com"
+					className="text-neutral-500 hover:text-black transition"
+				>
+					<FaInstagram size={25} />
+				</a>
+				<a
+					href="https://www.google.com"
+					className="text-neutral-500 hover:text-black transition"
+				>
+					<FaPinterestP size={20} />
+				</a>
 			</div>
 		</nav>
 	);
