@@ -62,7 +62,7 @@ export const Meet: React.FC = () => {
 					</Quote>
 				</div>
 				<p className="text-neutral-500 font-body text-justify">
-					So what will I capture that others won't? I want to capture the
+					So what will I capture that others won&apos;t? I want to capture the
 					affection that is only showed in private, but in a delicate way. I
 					want to create a wonder that is almost mysterious. I want to give a
 					peek into something nobody else will understand but the two of you.
@@ -74,9 +74,9 @@ export const Meet: React.FC = () => {
 				<p className="text-neutral-500 font-body text-justify">
 					These images should act as a profession of the adoration you have for
 					each other. I will do everything in my power to help you connect with
-					your partner on a deeper level. I don't want your session to just be a
-					photoshoot, I want it to be a reflection of your ceaseless love. My
-					main purpose in life is to help people comprehend how immensely
+					your partner on a deeper level. I don&apos;t want your session to just
+					be a photoshoot, I want it to be a reflection of your ceaseless love.
+					My main purpose in life is to help people comprehend how immensely
 					powerful it is to love and be loved in return. I just love love.
 				</p>
 			</div>
