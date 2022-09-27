@@ -3,7 +3,7 @@ import {
 	CTA,
 	Container,
 	Hero,
-	Meet,
+	Intro,
 	Page,
 	PopoverNav,
 	Quote,
@@ -24,7 +24,8 @@ const Home: NextPage = () => {
 					There is nothing better than loving and being loved in return.
 				</Quote>
 				<Showcase />
-				<Meet />
+				<Intro />
+				<Intro primary />
 				<Testimonials />
 
 				<Container>

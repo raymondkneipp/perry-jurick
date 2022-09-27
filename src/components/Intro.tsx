@@ -1,13 +1,17 @@
-import { Button, Centered, Container } from 'components';
+import { Button, Centered, Container, Initials } from 'components';
 
 import Image from 'next/future/image';
 
-export const Meet: React.FC = () => {
+type Props = {
+	primary?: boolean;
+};
+
+export const Intro: React.FC<Props> = ({ primary }) => {
 	return (
 		<Container>
-			<div className="grid md:grid-cols-2 gap-16 items-center justify-center">
+			<div className="grid md:grid-cols-2 gap-16 py-16 items-center justify-center">
 				<Image
-					src="/img/perry/1.jpg"
+					src={primary ? '/img/perry/2.jpg' : '/img/perry/1.jpg'}
 					width="275"
 					height="275"
 					alt="Perry Jurick"
@@ -15,11 +19,11 @@ export const Meet: React.FC = () => {
 				/>
 
 				<Centered>
-					<span className="text-neutral-500 font-body italic">
-						about the atist
+					<span className="text-neutral-500 font-body italic text-center">
+						{primary ? 'Pure, Emotive Artistry' : 'about the artist'}
 					</span>
-					<h2 className="font-heading text-neutral-700 uppercase text-2xl tracking-widest">
-						Meet Perry
+					<h2 className="font-heading text-neutral-700 uppercase text-2xl tracking-widest text-center">
+						{primary ? 'My Philosophy' : 'Meet Perry'}
 					</h2>
 
 					<p className="text-neutral-500 font-body text-justify">
@@ -37,7 +41,7 @@ export const Meet: React.FC = () => {
 						capture it for you.
 					</p>
 
-					<Button to="/about">Read More</Button>
+					{primary ? <Initials /> : <Button to="/about">Read More</Button>}
 				</Centered>
 			</div>
 		</Container>
