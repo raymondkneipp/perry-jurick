@@ -5,7 +5,7 @@ import { Popover } from '@headlessui/react';
 
 export const PopoverNav: React.FC = () => {
 	return (
-		<nav className="flex items-center justify-between p-8 sticky top-0">
+		<nav className="z-50 flex items-center justify-between p-8 fixed md:sticky top-0 right-0 left-0">
 			<Initials />
 			<Popover className="relative">
 				{({ open }) => (
