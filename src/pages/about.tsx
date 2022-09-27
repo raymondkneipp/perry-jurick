@@ -1,12 +1,4 @@
-import {
-	CTA,
-	Intro,
-	Page,
-	PopoverNav,
-	Quote,
-	Spacing,
-	Testimonials,
-} from 'components';
+import { CTA, Intro, Meet, Page, PopoverNav, Spacing } from 'components';
 
 import type { NextPage } from 'next';
 
@@ -17,11 +9,7 @@ const About: NextPage = () => {
 			<Spacing>
 				<Intro primary />
 
-				<Testimonials />
-
-				<Quote>
-					There is nothing better than loving and being loved in return.
-				</Quote>
+				<Meet />
 
 				<CTA />
 			</Spacing>
