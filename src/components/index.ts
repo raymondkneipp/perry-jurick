@@ -14,4 +14,5 @@ export { Quote } from './Quote';
 export { Showcase } from './Showcase';
 export { SocialIcon } from './SocialIcon';
 export { Socials } from './Socials';
+export { TestimonialItem } from './TestimonialItem';
 export { Testimonials } from './Testimonials';
