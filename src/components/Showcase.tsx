@@ -12,7 +12,7 @@ export const Showcase: React.FC = () => {
 					<Image src="/img/showcase/3.jpg" alt="3" width={300} height={350} />
 					<Image
 						src="/img/showcase/4.jpg"
-						alt="3"
+						alt="4"
 						width={300}
 						height={350}
 						className="block sm:hidden"
