@@ -27,7 +27,6 @@ const Home: NextPage = () => {
 				</Container>
 				<Showcase />
 				<Intro />
-				<Intro primary />
 				<Testimonials />
 
 				<Container>
