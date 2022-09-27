@@ -17,22 +17,22 @@ export const Meet: React.FC = () => {
 			<div className="grid md:grid-cols-2 gap-16 py-16 items-center justify-center">
 				<Image
 					src="/img/perry/3.jpg"
-					width="275"
-					height="275"
+					width="400"
+					height="400"
 					alt="Perry Jurick"
 					className="mx-auto"
 				/>
 
 				<Image
 					src="/img/perry/4.jpg"
-					width="275"
-					height="275"
+					width="400"
+					height="400"
 					alt="Perry Jurick"
 					className="mx-auto"
 				/>
 
 				<p className="text-neutral-500 font-body text-justify">
-					I've been a photographer for seven years, but originally I was a
+					I&apos;ve been a photographer for seven years, but originally I was a
 					writer. Art has always been a significant part of my life. I wrote my
 					first novel at the age of thirteen (not that it was very good!) and I
 					always believed I would be an author someday. I still believe I might.
@@ -45,15 +45,15 @@ export const Meet: React.FC = () => {
 				</p>
 				<p className="text-neutral-500 font-body text-justify">
 					There is something so beautiful in the movement of the human body. The
-					connection we feel to others. It's wondrous to me how there are
+					connection we feel to others. It&apos;s wondrous to me how there are
 					certain people that we connect with on a profound level. The intimacy
 					we only show to that one person, the one soul that the connection is
-					so deep and so mutually understood. You've found that. You have the
-					person who you can call your own, who will always be there with you
-					even when they're not. That is so beautiful. When I was young, I asked
-					my mother how she knew that she loved my father and she said through
-					tears, "He's my best friend." Ever since that day I knew exactly what
-					I was searching for.
+					so deep and so mutually understood. You&apos;ve found that. You have
+					the person who you can call your own, who will always be there with
+					you even when they&apos;re not. That is so beautiful. When I was
+					young, I asked my mother how she knew that she loved my father and she
+					said through tears, &quot;He&apos;s my best friend.&quot; Ever since
+					that day I knew exactly what I was searching for.
 				</p>
 				<div className="col-span-full">
 					<Quote>
