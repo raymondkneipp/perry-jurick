@@ -10,7 +10,7 @@ export const PopoverNav: React.FC = () => {
 				{({ open }) => (
 					<>
 						<MenuButton open={open} />
-						<Popover.Panel className="absolute z-10 right-0 left-0 top-0 bg-white p-8 flex flex-col gap-8 shadow-lg">
+						<Popover.Panel className="absolute z-10 right-0 left-0 top-0 bg-white p-8 flex flex-col gap-8 shadow-lg bg-opacity-50 backdrop-blur-sm">
 							<Initials />
 							<div className="flex flex-col gap-4 items-start">
 								<NavLink to="/">Home</NavLink>

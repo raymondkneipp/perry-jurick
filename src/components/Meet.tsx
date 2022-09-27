@@ -5,7 +5,7 @@ import Image from 'next/future/image';
 export const Meet: React.FC = () => {
 	return (
 		<Container>
-			<div className="grid grid-cols-2 gap-16 items-center justify-center">
+			<div className="grid md:grid-cols-2 gap-16 items-center justify-center">
 				<Image
 					src="/img/perry/1.jpg"
 					width="275"

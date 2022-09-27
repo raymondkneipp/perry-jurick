@@ -6,20 +6,20 @@ type Props = {
 
 export const MenuButton: React.FC<Props> = ({ open }) => {
 	return (
-		<Popover.Button className="relative z-50 bg-white bg-opacity-50 group text-sm text-neutral-500 hover:text-neutral-700 transition hover:border-neutral-700 font-heading border py-2 px-4 border-neutral-200 flex items-center gap-2">
+		<Popover.Button className="relative z-50 bg-white bg-opacity-50 backdrop-blur-sm group text-sm text-neutral-700 transition hover:border-neutral-700 font-heading border py-2 px-4 border-neutral-200 flex items-center gap-2">
 			<div className="flex flex-col items-center">
 				<div
-					className={`h-px w-4 bg-neutral-500 group-hover:bg-neutral-700 transform translate-y-px transition ${
+					className={`h-px w-4 bg-neutral-700 transform translate-y-px transition ${
 						open ? 'rotate-45' : 'group-hover:-translate-y-[3px]'
 					}`}
 				></div>
 				<div
-					className={`h-px w-4 bg-neutral-500 group-hover:bg-neutral-700 transition ${
+					className={`h-px w-4 bg-neutral-700 transition ${
 						open ? 'opacity-0' : 'opactiy-100'
 					}`}
 				></div>
 				<div
-					className={`h-px w-4 bg-neutral-500 group-hover:bg-neutral-700 transform -translate-y-px transition ${
+					className={`h-px w-4 bg-neutral-700 transform -translate-y-px transition ${
 						open ? '-rotate-45' : 'group-hover:translate-y-[3px]'
 					}`}
 				></div>

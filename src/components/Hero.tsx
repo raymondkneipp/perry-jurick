@@ -14,7 +14,7 @@ export const Hero: React.FC = () => {
 			/>
 
 			{/* Overlay */}
-			<div className="z-40 absolute inset-0 bg-white bg-opacity-75"></div>
+			<div className="z-40 absolute inset-0 bg-white bg-opacity-75 backdrop-blur-sm"></div>
 
 			<SideNav />
 

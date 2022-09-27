@@ -6,7 +6,7 @@ export const Showcase: React.FC = () => {
 	return (
 		<Container>
 			<div className="flex flex-col gap-16">
-				<div className="grid grid-cols-3 gap-16 items-stretch place-items-center">
+				<div className="grid grid-cols-3 gap-8 md:gap-16 items-stretch place-items-center">
 					<Image src="/img/showcase/1.jpg" alt="1" width={300} height={350} />
 					<Image src="/img/showcase/2.jpg" alt="2" width={300} height={350} />
 					<Image src="/img/showcase/3.jpg" alt="3" width={300} height={350} />
