@@ -5,6 +5,8 @@ export const Footer: React.FC = () => {
 		<Container>
 			<footer>
 				<Centered>
+					<Initials />
+					<Socials />
 					<a
 						href="https://raymondkneipp.com"
 						target="_blank"
@@ -13,9 +15,6 @@ export const Footer: React.FC = () => {
 					>
 						Website by Raymond Kneipp
 					</a>
-
-					<Socials />
-					<Initials />
 				</Centered>
 			</footer>
 		</Container>
