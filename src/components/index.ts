@@ -6,6 +6,7 @@ export { Centered } from './layout/Centered';
 export { Container } from './layout/Container';
 export { Meet } from './Meet';
 export { Button } from './navigation/Button';
+export { MenuButton } from './navigation/MenuButton';
 export { NavLink } from './navigation/NavLink';
 export { PopoverNav } from './navigation/PopoverNav';
 export { SideNav } from './navigation/SideNav';
