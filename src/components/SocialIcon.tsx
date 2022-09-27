@@ -13,6 +13,7 @@ export const SocialIcon: React.FC<Props> = ({ icon, size, to }) => {
 			href={to}
 			className="text-neutral-500 hover:text-neutral-700 transition"
 			target="_blank"
+			rel="noreferrer"
 		>
 			{React.createElement(icon, { size })}
 		</a>

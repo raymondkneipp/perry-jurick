@@ -23,7 +23,7 @@ export const Meet: React.FC = () => {
 					</h2>
 
 					<p className="text-neutral-500 font-body text-justify">
-						Capturing your relationship in it's purest form is the most
+						Capturing your relationship in it&apos;s purest form is the most
 						important part of my job, and this is something I always carry with
 						me while shooting.
 					</p>
