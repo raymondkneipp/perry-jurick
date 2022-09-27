@@ -20,9 +20,11 @@ const Home: NextPage = () => {
 			<Hero />
 			<PopoverNav />
 			<Spacing>
-				<Quote>
-					There is nothing better than loving and being loved in return.
-				</Quote>
+				<Container>
+					<Quote>
+						There is nothing better than loving and being loved in return.
+					</Quote>
+				</Container>
 				<Showcase />
 				<Intro />
 				<Intro primary />

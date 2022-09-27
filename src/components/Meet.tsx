@@ -14,7 +14,7 @@ export const Meet: React.FC = () => {
 				</h2>
 			</Centered>
 
-			<div className="grid md:grid-cols-2 gap-16 py-16 items-center justify-center">
+			<div className="grid md:grid-cols-2 gap-16 py-16">
 				<Image
 					src="/img/perry/3.jpg"
 					width="400"
@@ -55,12 +55,14 @@ export const Meet: React.FC = () => {
 					said through tears, &quot;He&apos;s my best friend.&quot; Ever since
 					that day I knew exactly what I was searching for.
 				</p>
-				<div className="col-span-full">
-					<Quote>
-						It&apos;s amazing to think that we have the potential to be so many
-						different kinds of people. I want to be all of them.
-					</Quote>
-				</div>
+			</div>
+
+			<Quote>
+				It&apos;s amazing to think that we have the potential to be so many
+				different kinds of people. I want to be all of them.
+			</Quote>
+
+			<div className="grid md:grid-cols-2 gap-16 py-16">
 				<p className="text-neutral-500 font-body text-justify">
 					So what will I capture that others won&apos;t? I want to capture the
 					affection that is only showed in private, but in a delicate way. I
