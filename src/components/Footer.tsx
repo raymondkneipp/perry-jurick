@@ -3,7 +3,7 @@ import { Centered, Container, Initials, Socials } from 'components';
 export const Footer: React.FC = () => {
 	return (
 		<Container>
-			<footer>
+			<footer className="py-16">
 				<Centered>
 					<Initials />
 					<Socials />
