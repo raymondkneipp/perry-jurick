@@ -9,9 +9,9 @@ export const Meet: React.FC = () => {
 				<h2 className="text-4xl font-script text-neutral-500 tracking-wider text-center">
 					Meet The Artist
 				</h2>
-				<h2 className="font-heading text-neutral-700 uppercase text-2xl tracking-widest text-center">
+				<h3 className="font-heading text-neutral-700 uppercase text-2xl tracking-widest text-center">
 					About Perry
-				</h2>
+				</h3>
 			</Centered>
 
 			<div className="grid md:grid-cols-2 gap-16 py-16">
