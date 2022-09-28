@@ -8,6 +8,7 @@ export { Centered } from './layout/Centered';
 export { Container } from './layout/Container';
 export { Page } from './layout/Page';
 export { Spacing } from './layout/Spacing';
+export { Love } from './Love';
 export { Meet } from './Meet';
 export { Button } from './navigation/Button';
 export { MenuButton } from './navigation/MenuButton';

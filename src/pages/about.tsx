@@ -2,6 +2,7 @@ import {
 	CTA,
 	Inspirations,
 	Intro,
+	Love,
 	Meet,
 	Page,
 	PopoverNav,
@@ -18,6 +19,7 @@ const About: NextPage = () => {
 				<Intro primary />
 				<Meet />
 				<Inspirations />
+				<Love />
 				<CTA />
 			</Spacing>
 		</Page>
