@@ -2,6 +2,7 @@ export { CTA } from './CTA';
 export { Footer } from './Footer';
 export { Hero } from './Hero';
 export { Initials } from './Initials';
+export { Inspirations } from './Inspirations';
 export { Intro } from './Intro';
 export { Centered } from './layout/Centered';
 export { Container } from './layout/Container';

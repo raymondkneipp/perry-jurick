@@ -1,4 +1,12 @@
-import { CTA, Intro, Meet, Page, PopoverNav, Spacing } from 'components';
+import {
+	CTA,
+	Inspirations,
+	Intro,
+	Meet,
+	Page,
+	PopoverNav,
+	Spacing,
+} from 'components';
 
 import type { NextPage } from 'next';
 
@@ -8,9 +16,8 @@ const About: NextPage = () => {
 			<PopoverNav />
 			<Spacing>
 				<Intro primary />
-
 				<Meet />
-
+				<Inspirations />
 				<CTA />
 			</Spacing>
 		</Page>
