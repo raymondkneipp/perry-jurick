@@ -2,8 +2,6 @@ import { BsChevronLeft, BsChevronRight } from 'react-icons/bs';
 import { Centered, Container, TestimonialItem } from 'components';
 import { useEffect, useState } from 'react';
 
-import { Transition } from '@headlessui/react';
-
 const testimonials = [
 	{
 		name: 'Drew + Tracy',
@@ -46,19 +44,9 @@ export const Testimonials: React.FC = () => {
 				<h2 className="font-heading text-neutral-700 uppercase text-2xl tracking-widest">
 					Testimonials
 				</h2>
-				<Transition
-					show={true}
-					enter="transition-opacity duration-75"
-					enterFrom="opacity-0"
-					enterTo="opacity-100"
-					leave="transition-opacity duration-150"
-					leaveFrom="opacity-100"
-					leaveTo="opacity-0"
-				>
-					<TestimonialItem name={testimonials[index].name}>
-						{testimonials[index].content}
-					</TestimonialItem>
-				</Transition>
+				<TestimonialItem name={testimonials[index].name}>
+					{testimonials[index].content}
+				</TestimonialItem>
 
 				<div>
 					<button type="button" onClick={prev} className="p-4 text-neutral-500">
