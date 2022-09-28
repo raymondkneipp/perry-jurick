@@ -1,6 +1,7 @@
 import { BsChevronLeft, BsChevronRight } from 'react-icons/bs';
 import { Centered, Container, TestimonialItem } from 'components';
-import { useEffect, useState } from 'react';
+
+import { useState } from 'react';
 
 const testimonials = [
 	{
@@ -17,10 +18,6 @@ const testimonials = [
 
 export const Testimonials: React.FC = () => {
 	const [index, setIndex] = useState(0);
-
-	useEffect(() => {
-		console.log(index);
-	}, [index]);
 
 	const prev = () => {
 		if (index === 0) {
