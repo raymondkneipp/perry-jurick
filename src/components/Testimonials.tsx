@@ -41,7 +41,7 @@ export const Testimonials: React.FC = () => {
 	};
 
 	return (
-		<Container bordered>
+		<Container>
 			<Centered>
 				<h2 className="font-heading text-neutral-700 uppercase text-2xl tracking-widest">
 					Testimonials
