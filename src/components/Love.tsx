@@ -43,8 +43,11 @@ export const Love: React.FC = () => {
 			</h2>
 
 			<Marquee speed={40} pauseOnHover={true}>
-				{row1.map((item, index) => (
-					<div className="text-neutral-500 flex items-center gap-4 mr-4">
+				{row1.map((item) => (
+					<div
+						className="text-neutral-500 flex items-center gap-4 mr-4"
+						key={item}
+					>
 						<span>{item}</span>
 						<FaHeart />
 					</div>
@@ -52,8 +55,11 @@ export const Love: React.FC = () => {
 			</Marquee>
 
 			<Marquee direction="right" speed={30} pauseOnHover={true}>
-				{row2.map((item, index) => (
-					<div className="text-neutral-500 flex items-center gap-4 mr-4">
+				{row2.map((item) => (
+					<div
+						className="text-neutral-500 flex items-center gap-4 mr-4"
+						key={item}
+					>
 						<span>{item}</span>
 						<FaHeart />
 					</div>
@@ -61,8 +67,11 @@ export const Love: React.FC = () => {
 			</Marquee>
 
 			<Marquee speed={20} pauseOnHover={true}>
-				{row3.map((item, index) => (
-					<div className="text-neutral-500 flex items-center gap-4 mr-4">
+				{row3.map((item) => (
+					<div
+						className="text-neutral-500 flex items-center gap-4 mr-4"
+						key={item}
+					>
 						<span>{item}</span>
 						<FaHeart />
 					</div>
