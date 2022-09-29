@@ -1,3 +1,4 @@
+export { BQ } from './BQ';
 export { CTA } from './CTA';
 export { Footer } from './Footer';
 export { Hero } from './Hero';
