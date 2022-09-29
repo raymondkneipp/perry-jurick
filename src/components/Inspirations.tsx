@@ -58,7 +58,7 @@ export const Inspirations: React.FC = () => {
 
 	return (
 		<Container>
-			<div className="grid grid-cols-2 gap-16">
+			<div className="grid md:grid-cols-2 gap-16">
 				<div className="flex flex-col gap-4">
 					<h2 className="text-neutral-500 font-body italic">Inspirations</h2>
 					<h3 className="font-heading text-neutral-700 uppercase text-2xl tracking-widest">
