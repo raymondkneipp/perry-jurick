@@ -1,5 +1,9 @@
-import { BsChevronLeft, BsChevronRight } from 'react-icons/bs';
-import { Centered, Container, TestimonialItem } from 'components';
+import {
+	ArrowControls,
+	Centered,
+	Container,
+	TestimonialItem,
+} from 'components';
 
 import { useState } from 'react';
 
@@ -19,22 +23,6 @@ const testimonials = [
 export const Testimonials: React.FC = () => {
 	const [index, setIndex] = useState(0);
 
-	const prev = () => {
-		if (index === 0) {
-			setIndex(testimonials.length - 1);
-		} else {
-			setIndex((prev) => prev - 1);
-		}
-	};
-
-	const next = () => {
-		if (index === testimonials.length - 1) {
-			setIndex(0);
-		} else {
-			setIndex((prev) => prev + 1);
-		}
-	};
-
 	return (
 		<Container>
 			<Centered>
@@ -45,14 +33,11 @@ export const Testimonials: React.FC = () => {
 					{testimonials[index].content}
 				</TestimonialItem>
 
-				<div>
-					<button type="button" onClick={prev} className="p-4 text-neutral-500">
-						<BsChevronLeft size={20} />
-					</button>
-					<button type="button" onClick={next} className="p-4 text-neutral-500">
-						<BsChevronRight size={20} />
-					</button>
-				</div>
+				<ArrowControls
+					index={index}
+					setIndex={setIndex}
+					length={testimonials.length}
+				/>
 			</Centered>
 		</Container>
 	);

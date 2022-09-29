@@ -1,6 +1,5 @@
-import { BsChevronLeft, BsChevronRight } from 'react-icons/bs';
+import { ArrowControls, Container } from 'components';
 
-import { Container } from 'components';
 import Image from 'next/future/image';
 import { useState } from 'react';
 
@@ -40,22 +39,6 @@ const inspirations = [
 export const Inspirations: React.FC = () => {
 	const [index, setIndex] = useState(0);
 
-	const prev = () => {
-		if (index === 0) {
-			setIndex(inspirations.length - 1);
-		} else {
-			setIndex((prev) => prev - 1);
-		}
-	};
-
-	const next = () => {
-		if (index === inspirations.length - 1) {
-			setIndex(0);
-		} else {
-			setIndex((prev) => prev + 1);
-		}
-	};
-
 	return (
 		<Container>
 			<div className="grid md:grid-cols-2 gap-16">
@@ -77,14 +60,11 @@ export const Inspirations: React.FC = () => {
 					/>
 				</div>
 			</div>
-			<div className="">
-				<button type="button" onClick={prev} className="p-4 text-neutral-500">
-					<BsChevronLeft size={20} />
-				</button>
-				<button type="button" onClick={next} className="p-4 text-neutral-500">
-					<BsChevronRight size={20} />
-				</button>
-			</div>
+			<ArrowControls
+				index={index}
+				setIndex={setIndex}
+				length={inspirations.length}
+			/>
 		</Container>
 	);
 };

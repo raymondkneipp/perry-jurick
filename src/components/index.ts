@@ -11,6 +11,7 @@ export { Page } from './layout/Page';
 export { Spacing } from './layout/Spacing';
 export { Love } from './Love';
 export { Meet } from './Meet';
+export { ArrowControls } from './navigation/ArrowControls';
 export { Button } from './navigation/Button';
 export { MenuButton } from './navigation/MenuButton';
 export { NavLink } from './navigation/NavLink';
