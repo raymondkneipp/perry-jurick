@@ -24,11 +24,19 @@ export const ArrowControls: React.FC<Props> = ({ length, index, setIndex }) => {
 	};
 
 	return (
-		<div>
-			<button type="button" onClick={prev} className="p-4 text-neutral-500">
+		<div className="flex flex-row gap-4">
+			<button
+				type="button"
+				onClick={prev}
+				className="p-4 text-neutral-500 hover:text-neutral-900 transition"
+			>
 				<BsChevronLeft size={20} />
 			</button>
-			<button type="button" onClick={next} className="p-4 text-neutral-500">
+			<button
+				type="button"
+				onClick={next}
+				className="p-4 text-neutral-500 hover:text-neutral-900 transition"
+			>
 				<BsChevronRight size={20} />
 			</button>
 		</div>
