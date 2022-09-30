@@ -1,0 +1,1 @@
+- [ ] animate popover nav like so https://codesandbox.io/s/framer-motion-side-menu-mx2rw?from-embed=&file=/src/Example.tsx
